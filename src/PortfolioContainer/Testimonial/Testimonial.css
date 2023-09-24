@@ -1,0 +1,68 @@
+.wrapper-testimonial {
+    width: 740px;
+    height: 330px;
+    background-image: url('../../Assets/Home/send.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 0px solid rgb(255, 255, 255, .5);
+    box-shadow: 0 0 0px rgba(15, 16, 16, 0.5);
+    border-radius: 20px 20px 0px 0px;
+    backdrop-filter: blur(20px);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+
+.footer {
+    margin-bottom: -79%;
+    display: flex;
+    height:690px;
+}
+
+.slide-testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /**background-color: rgb(180, 44, 44);**/
+    width: 700px;
+    height: 200px;
+    margin-top: 10px;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.message-box {
+    width: 200px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(21, 46, 67);
+    border-radius: 50px 0px 50px 0px;
+    padding: 10px;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.profil-name h6 {
+    color: aqua;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.profilphoto {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.message-content p {
+    font-size: 0.5em;
+    color: aliceblue;
+}

@@ -1,0 +1,222 @@
+.profile-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
+    margin-top: 20px;
+    padding: 0px 120px 0px 120px;
+    flex-direction: column;
+}
+
+.profile-parent {
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    margin: 50px;
+}
+
+.profile-details-name {
+    font-size: 24px;
+    font-family: "Poppins SemiBold";
+}
+
+.profile-details-role {
+    font-size: flex;
+    flex-direction: column;
+    margin: 10px 0 30px 0;
+}
+
+.profile-details-role h1 {
+    font-size: 35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.primary-text {
+    color: (--white);
+}
+
+.highlighted-text {
+    color: var(--dark-orange);
+}
+
+.profile-role-tagline {
+    font-size: 19px;
+    margin: 5px 0 0 0;
+    font-family: "Poppins Light";
+}
+
+.profile.options .highlighted-btn {
+    margin: 0 0 0 28px;
+}
+
+.profile.options .highlighted-btn {
+    margin: 0 0 0 28px;
+    background-color: cornsilk;
+    color: #111;
+}
+
+.profile-picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px var(--white);
+    border-radius: 50%;
+    height: 303px;
+    width: 560px;
+    margin: 0 40px 0 100px;
+}
+
+.profile-picture-background {
+    height: 92%;
+    width: 92%;
+    background-image: url("../../Assets/Home/IMG_E4261.JPG");
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.profile-picture-background:hover {
+   transform: scale(1.07);
+   transition: 1s ease-out;
+}
+
+.colz .colz-icons i {
+    color: white;
+    padding: 8px;
+    padding-left: 0px;
+}
+
+.colz .colz-icons i:hover{
+ transform: scale(1.5);   
+}
+
+@media screen and (max-width:1110px) {
+    .profile-picture {
+        margin: 0 0px 80px;
+    }
+    .profile-details-name {
+        font-size: 20px;
+    }
+    .profile-details-role .primary-text {
+        font-size: 12px;
+    }
+    .profile.options {
+        width: 120px;
+        padding: 11px 0;
+        z-index: 700;
+    }
+}
+
+@media screen and (max-width:810px) {
+    .profile-picture{
+        box-shadow: 0 1px 0px 0px var(--white);
+        border-radius: 50%;
+        height: 340px;
+        width: 340px;
+        margin: 0 !important;
+    }
+    .profile-parent{
+        flex-direction: column-reverse;
+        margin: 40px 0 0 0;
+    }
+    .profile.options {
+        display: flex;
+        justify-content: space-between;
+    }
+    .profile-details {
+        margin: 25px 0 0 0;
+    }
+    .profile.options .highlighted-btn {
+        margin: 0 !important;
+    }
+    .profile.options,
+    .profile-details-role {
+        text-align: center;
+    }
+    .head header {
+        position: absolute;
+        top : 0;
+        margin-bottom: 30px;
+        left: 0;
+        width: 100%;
+        padding:  5px 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 9;
+        font-size: 0.5em;
+    }
+}
+header {
+    position: absolute;
+    top : 0;
+    margin-bottom: 30px;
+    left: 0;
+    width: 100%;
+    padding:  20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.head {
+    margin: 10px;
+}
+
+.logo {
+    font-size: 2em;
+    color: white;
+    user-select: none;
+}
+
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    font-weight: 50%;
+    margin-left: 30px;
+}
+
+.navigation a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100px;
+    height: 3px;
+    background: white;
+    border-radius: 3px;
+    transform-origin: right;
+    transform: scaleZ(0);
+    transition: transform .5s;
+}
+
+.navigation a:hover::after {
+    transform-origin: left;
+    transform: scaleX(0.2);
+}
+
+.navigation .btnlogin-popup {
+    width: 110px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 300;
+    margin-left: 50px;
+    transition: .5s;
+}
+
+.navigation .btnlogin-popup:hover {
+    background-color: rgb(29, 4, 97);
+    color : white;
+}
+

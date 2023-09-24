@@ -1,0 +1,137 @@
+.wrapper-contact {
+    width: 740px;
+    height: 400px;
+    background-color: rgb(21, 46, 67);
+    border: 2px solid rgb(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(15, 16, 16, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.Text-label h3 {
+    color: aliceblue;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left:-570px;
+    padding: 5px;
+}
+
+.wrapper-contents {
+    width: 740px;
+    height: 355px;
+    background-color: rgb(21, 46, 67);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(15, 16, 16, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: row;
+}
+
+.text-container {
+    
+    width: 370px;
+    height: 355px;
+}
+
+.textcontact-label {
+    color: white;
+    margin-left: -110px;
+}
+
+.text-content {
+    margin-top: 70px;
+}
+
+.email-content {
+    background-color: rgb(21, 46, 67);
+    width: 370px;
+    height: 355px;
+}
+
+.email-message {
+    width: 350px;
+    height: 290px;
+    background-color: rgb(202, 205, 209);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(15, 16, 16, 0.5);
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-inline: 15px;
+}
+
+.text-input {
+    width: auto;
+}
+
+.text-label1{
+    width: 50px;
+    margin-left: 0px;
+    align-items: flex-start;
+    padding-top: 8px;
+}
+
+.text-label2{
+    width: 105px;
+    margin-left: 0px;
+    align-items: flex-start;
+    padding-top: 8px;
+}
+
+.text-label{
+    width: 80px;
+    margin-left: 0px;
+    align-items: flex-start;
+    padding-top: 8px;
+}
+
+.text-label h5, .text-label1 h5,.text-label2 h5 {
+    font-size: 0.9em;
+}
+
+.textInput {
+    width: 320px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.6em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode', 
+     Geneva, Verdana, sans-serif;
+}
+
+.send-btn {
+    margin: 10px;
+    color: white;
+    border-color: transparent;
+    border-radius: 20px;
+    border: none;
+    margin-left: -245px;
+}
+
+.image-content {
+    width: 370px;
+    height: 150px;
+    background-image: url('../../Assets/Home/send.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo-content .colz-icons i {
+    color: white;
+    padding: 8px;
+    padding-left: 0px;
+}
+
+.logo-content .colz-icons i:hover{
+ transform: scale(1.5);   
+}
